@@ -1,0 +1,16 @@
+name = GSB Feature Insight Display
+core = 7.x
+package = GSB
+version = 7.x-1.0
+project = gsb_feature_insight_display
+dependencies[] = features
+dependencies[] = gsb_feature_base_fields
+dependencies[] = link
+dependencies[] = text
+features[features_api][] = api:2
+features[field_instance][] = taxonomy_term-academic_area-field_action
+features[field_instance][] = taxonomy_term-academic_area-field_topic_page_url
+features[field_instance][] = taxonomy_term-business_insight_topic-field_action
+features[field_instance][] = taxonomy_term-business_insight_topic-field_topic_page_url
+features[field_instance][] = taxonomy_term-region_interest-field_action
+features[field_instance][] = taxonomy_term-region_interest-field_topic_page_url
