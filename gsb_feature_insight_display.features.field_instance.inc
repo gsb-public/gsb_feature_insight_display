@@ -151,6 +151,8 @@ function gsb_feature_insight_display_field_default_field_instances() {
   // Exported field_instance: 'taxonomy_term-business_insight_topic-field_topic_page_url'
   $field_instances['taxonomy_term-business_insight_topic-field_topic_page_url'] = array(
     'bundle' => 'business_insight_topic',
+    'custom_add_another' => '',
+    'custom_remove' => '',
     'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
@@ -165,15 +167,19 @@ function gsb_feature_insight_display_field_default_field_instances() {
         'weight' => 0,
       ),
     ),
+    'ds_extras_field_template' => '',
     'entity_type' => 'taxonomy_term',
     'field_name' => 'field_topic_page_url',
     'label' => 'Topic page URL',
-    'required' => FALSE,
+    'required' => 0,
     'settings' => array(
       'attributes' => array(
         'class' => '',
+        'configurable_class' => 0,
+        'configurable_title' => 0,
         'rel' => '',
         'target' => 'default',
+        'title' => '',
       ),
       'custom_add_another' => '',
       'custom_remove' => '',
@@ -181,8 +187,13 @@ function gsb_feature_insight_display_field_default_field_instances() {
         'url_cutoff' => 80,
       ),
       'enable_tokens' => 1,
-      'title' => 'optional',
-      'title_label_use_field_label' => FALSE,
+      'linkit' => array(
+        'enable' => 0,
+        'insert_plugin' => '',
+      ),
+      'rel_remove' => 'default',
+      'title' => 'none',
+      'title_label_use_field_label' => 0,
       'title_maxlength' => 128,
       'title_value' => '',
       'url' => 0,
@@ -190,11 +201,15 @@ function gsb_feature_insight_display_field_default_field_instances() {
       'validate_url' => 1,
     ),
     'widget' => array(
+      'active' => 0,
       'module' => 'link',
-      'settings' => array(),
+      'settings' => array(
+        'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
+      ),
       'type' => 'link_field',
       'weight' => 1,
     ),
+    'workbench_access_field' => 0,
   );
 
   // Exported field_instance: 'taxonomy_term-region_interest-field_action'
@@ -237,6 +252,8 @@ function gsb_feature_insight_display_field_default_field_instances() {
   // Exported field_instance: 'taxonomy_term-region_interest-field_topic_page_url'
   $field_instances['taxonomy_term-region_interest-field_topic_page_url'] = array(
     'bundle' => 'region_interest',
+    'custom_add_another' => '',
+    'custom_remove' => '',
     'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
@@ -251,15 +268,19 @@ function gsb_feature_insight_display_field_default_field_instances() {
         'weight' => 0,
       ),
     ),
+    'ds_extras_field_template' => '',
     'entity_type' => 'taxonomy_term',
     'field_name' => 'field_topic_page_url',
     'label' => 'Topic page URL',
-    'required' => FALSE,
+    'required' => 0,
     'settings' => array(
       'attributes' => array(
         'class' => '',
+        'configurable_class' => 0,
+        'configurable_title' => 0,
         'rel' => '',
         'target' => 'default',
+        'title' => '',
       ),
       'custom_add_another' => '',
       'custom_remove' => '',
@@ -267,8 +288,13 @@ function gsb_feature_insight_display_field_default_field_instances() {
         'url_cutoff' => 80,
       ),
       'enable_tokens' => 1,
-      'title' => 'optional',
-      'title_label_use_field_label' => FALSE,
+      'linkit' => array(
+        'enable' => 0,
+        'insert_plugin' => '',
+      ),
+      'rel_remove' => 'default',
+      'title' => 'none',
+      'title_label_use_field_label' => 0,
       'title_maxlength' => 128,
       'title_value' => '',
       'url' => 0,
@@ -276,11 +302,15 @@ function gsb_feature_insight_display_field_default_field_instances() {
       'validate_url' => 1,
     ),
     'widget' => array(
+      'active' => 0,
       'module' => 'link',
-      'settings' => array(),
+      'settings' => array(
+        'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
+      ),
       'type' => 'link_field',
       'weight' => 1,
     ),
+    'workbench_access_field' => 0,
   );
 
   // Translatables
